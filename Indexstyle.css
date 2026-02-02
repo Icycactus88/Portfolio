@@ -110,6 +110,14 @@ body {
   background-attachment: scroll;
 }
 
+.second-section p {
+  max-width: 80%; /* Adjusted for better centering */
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-family: 'Merriweather';
+  margin: 0 auto; /* Centering the paragraph */
+}
+
 .third-section {
   height: 100vh;
   display: flex;
