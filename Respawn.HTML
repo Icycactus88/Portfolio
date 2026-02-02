@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="RespawnStyle.css">
+    <title>Portfolio</title>
+<!-- Here I linked google fonts to my code, the first two lines connect to google fonts, the third line gets the specific font. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+</head>
+
+
+<!-- To make the navigation bar at the top of the screen, I have made a header class for the entire navbar itself, a specific class for the home button, since I want it to be on
+     a different side to the other buttons, and the other buttons are contained in this own list class. -->
+<body>
+    <header class="navbar">
+        <nav class="nav-container">
+            <!-- Different class than the rest of the buttons to allow it to be styled differently -->
+            <a class="home-link" href="index.html">Home</a>
+            <!-- Link the href=" " to a html file to change which HTML file is in use, changes the website for example -->
+            <ul>
+                <li><a href="About.html">About Me</a></li>
+                <li><a href="Works.html">My Works</a></li>
+                <li><a href="Contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+<section class="third-section">
+  <div class="video-background">
+    <iframe
+      src="https://www.youtube.com/embed/oNr7A1Hc3qQ?autoplay=1&mute=1&loop=1&playlist=oNr7A1Hc3qQ&controls=0&modestbranding=1&showinfo=0"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+<div class="Text-content">
+  <div class="text-row">
+
+      <button id="prev-img">←</button>
+
+  <div class="content">
+      <h2>RESPAWN</h2>
+      <p>Developed for a school project, the goal was to make a Synthwave style game. I chose a first person wave shooter in Unreal Engine 5 using PS1‑style graphics. Researching the PS1, I learned about vertex snapping, caused by integer‑based vertex positions, which made objects shift when the camera moved. This is why many PS1 games used fixed camera angles or avoided free first‑person movement.</p>
+  </div>
+
+  <button id="next-img">→</button>
+
+      <button id="next-img">→</button>
+
+  </div>
+</div>
+
+
+
+  <div class="respawn-button-row">
+    <a href="#" download="Removethis"></a>
+      <button id="ViewRespawn">→</button>
+      <span class="respawn-label">DOWNLOAD</span>
+  </div>
+</section>
